@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Order Makanan</title>
+    <link rel="stylesheet" href="style1.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Order Makanan</h1>
+    </header>
+    <main>
+      <section class="menu">
+        <h2>Daftar Menu</h2>
+        <ul>
+          <li>
+            <div class="item-image">
+              <img
+                src="c:\Users\Lenovo\Downloads\nasigoreng.jpg"
+                alt="Makanan-1"
+              />
+            </div>
+            <h3>Nasi Goreng</h3>
+            <p>Nasi goreng spesial dengan ayam, telur, dan sayuran.</p>
+            <span class="harga">Rp 15.000</span>
+            <button class="order-button" data-id="1">Order</button>
+          </li>
+          <li>
+            <div class="item-image">
+              <img
+                src="c:\Users\Lenovo\Downloads\mieayam.jpeg"
+                alt="Makanan-2"
+              />
+            </div>
+            <h3>Mie Ayam</h3>
+            <p>Mie ayam dengan topping ayam cincang, bakso, dan pangsit.</p>
+            <span class="harga">Rp 12.000</span>
+            <button class="order-button" data-id="2">Order</button>
+          </li>
+          <li>
+            <div class="item-image">
+              <img
+                src="c:\Users\Lenovo\Downloads\Burger.jpeg"
+                alt="Makanan-3"
+              />
+            </div>
+            <h3>Burger</h3>
+            <p>Burger dengan roti gandum, daging sapi, keju, dan sayuran.</p>
+            <span class="harga">Rp 20.000</span>
+            <button class="order-button" data-id="3">Order</button>
+          </li>
+          <li>
+            <div class="item-image">
+              <img src="c:\Users\Lenovo\Downloads\Pizza.jpeg" alt="Makanan-4" />
+            </div>
+            <h3>Pizza</h3>
+            <p>Pizza dengan topping pepperoni, jamur, dan paprika.</p>
+            <span class="harga">Rp 25.000</span>
+            <button class="order-button" data-id="4">Order</button>
+          </li>
+          <li>
+            <div class="item-image">
+              <img
+                src="c:\Users\Lenovo\Downloads\sateayam.jpeg"
+                alt="Makanan-5"
+              />
+            </div>
+            <h3>Sate Ayam</h3>
+            <p>Sate ayam dengan bumbu kacang yang lezat.</p>
+            <span class="harga">Rp 18.000</span>
+            <button class="order-button" data-id="5">Order</button>
+          </li>
+        </ul>
+      </section>
+      <section class="order-summary">
+        <h2>Keranjang Belanja</h2>
+        <ul id="order-list"></ul>
+        <p>Total Harga: <span id="total-harga">Rp 0</span></p>
+        <button id="checkout-button">Checkout</button>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
